@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding:0;
+}
+h2{
+    color:red;
+    text-align: 
+}
+.game{
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.board{
+    width: 500px;
+    height:500px;
+    background-color: silver;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media only screen and (max-width: 860px) {
+        width:200px;
+        height: 200px;
+    }
+
+    
+}
+.square{
+    background-color: skyblue;
+    width:30%;
+    height:auto;
+    border-color: tomato;
+    border-style:solid;
+    text-align: center;
+    text-decoration: none;
+    /* line-height: 125px; */
+    /* font-size: 70px; */
+}
