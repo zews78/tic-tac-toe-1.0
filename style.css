@@ -44,8 +44,8 @@ body{
 }
     @media only screen and (max-width: 500px) {
         .board{
-            width:250px;
-            height: 250px;
+            width:270px;
+            height: 270px;
         }
     }
 #q0,#q3,#q6{
@@ -82,7 +82,7 @@ body{
 }
     @media only screen and (max-width: 500px) {
         .square{
-            height:80px;
+            height:90px;
             line-height: 60px;
             font-size: 50px;
         }
