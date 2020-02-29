@@ -2,7 +2,7 @@
 
 let sign = "x";
 var sel= document.getElementById("select");
-sel.innerHTML=" turn of " + sign;
+sel.innerHTML=" Turn of " + sign;
 
 function printx(num){
     var pos = document.getElementById('q'+num);
@@ -26,7 +26,7 @@ function checksign(){
         sign="x";
     }
     var sel= document.getElementById("select");
-    sel.innerHTML=" turn of " + sign;
+    sel.innerHTML=" Turn of  " + sign;
     // else{
     //     continue;
     // }
