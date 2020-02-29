@@ -2,21 +2,32 @@
     margin: 0;
     padding:0;
 }
-h2{
-    color:red;
-    text-align: 
+body{
+    background-color: black;
 }
+#hed{
+    color: white;
+    margin-left: 10px;
+    font-family: timeburner;
+    font-size:18px;
+    
+}
+#select{
+    color: white;
+}
+
 
 #btn{
     padding:10px;
     margin:10px;
-    background-color: tomato;
+    background-color: rgb(43, 40, 40);
     border-radius: 10px;
+    color:white;
 }
 .game{
     width: 100%;
     height: auto;
-    background-color: wheat;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -26,7 +37,7 @@ h2{
 .board{
     width: 500px;
     height:500px;
-    background-color: silver;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -50,20 +61,29 @@ h2{
     border-bottom: none;
 }
 
-.square:hover{
+/* .square:hover{
     background-color: yellowgreen;
-}
+} */
     
 
 .square{
-    background-color: skyblue;
+    background-color: black;
     width:30%;
-    height:auto;
-    border-color: tomato;
+    height:163px;
+    border-color: white;
     border-style:solid;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    /* line-height: 125px; */
-    /* font-size: 70px; */
+    line-height: 125px;
+    font-size: 120px;
+    font-weight: bolder;
+    color:white;
+}
+    @media only screen and (max-width: 500px) {
+        .square{
+            height:80px;
+            line-height: 60px;
+            font-size: 50px;
+        }
 }
