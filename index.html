@@ -4,51 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tic tac toe</title>
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h2>gawds</h2>
+    <h2 id="hed">gawds</h2>
+    <p id="select">player</p>
     
     <div class="game">
         <div class="board">
-            <div class="square top left">
-                <div class="x">0
-                </div>
+            <div class="square" id="q0" onclick="printx('0')">
             </div>
-            <div class="square top">
-                <div class="x">1
-                </div>
+            <div class="square" id="q1" onclick="printx('1')">
             </div>
-            <div class="square top right">
-                <div class="x">2
-                </div>
+            <div class="square" id="q2" onclick="printx('2')">
             </div>
-            <div class="square middle left">
-                <div class="x">3
-                </div>
+            <div class="square" id="q3" onclick="printx('3')">
             </div>
-            <div class="square middle">
-                <div class="x">4
-                </div>
+            <div class="square" id="q4" onclick="printx('4')">
             </div>
-            <div class="square middle right">
-                <div class="x">5
-                </div>
+            <div class="square" id="q5" onclick="printx('5')">
             </div>
-            <div class="square bottom left">
-                <div class="x">6
-                </div>
+            <div class="square" id="q6" onclick="printx('6')">
             </div>
-            <div class="square bottom">
-                <div class="x">7
-                </div>
+            <div class="square" id="q7" onclick="printx('7')">
             </div>
-            <div class="square bottom right">
-                <div class="x">8
-                </div>
+            <div class="square" id="q8" onclick="printx('8')">
             </div>
         </div>
     </div>
-
+    <center><button id='btn' onclick="reset()">Reset</button></center>
+<script src="script.js"></script>
 </body>
 </html>
