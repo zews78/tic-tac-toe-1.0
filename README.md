@@ -1,2 +1,2 @@
 # tic-tac-toe
-simple game
+A simple two player game.
